@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Site</title>
+
+
+    <style>
+        body { padding-top:50px; }
+    </style>
+</head>
+<body>
+	<h1> Ultimas 10 ip </h1>
+
+    <div class="container">
+	<% ipsArray.forEach((ip) => { %>
+
+	      <p class="list-group-item-text"><%= ip %></p>
+
+	  <% }) %>
+    </div>
+
+</body>
+</html>
